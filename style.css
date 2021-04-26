@@ -20,16 +20,41 @@ h3{
 .btn-dark{
   margin: 20px;
 }
-.playlist ,.list{
-  border:1px solid black;
+.playlist,.list,.list2,.list3,.list4,.list5,.list6,.list1{
   padding: 8px;
   font-family: 'montserrat';
 }
 .playlist{
   border: none;
+  margin: 0;
 }
-.list:hover{
-  border: 3px solid black;
+.list{
+    border-left:7px solid blue;
+  background-color: lightgrey;
+}
+.list1{
+    border-left:7px solid red;
+  background-color: lightgrey;
+}
+.list2{
+    border-left:7px solid green;
+  background-color: lightgrey;
+}
+.list3{
+    border-left:7px solid yellow;
+  background-color: lightgrey;
+}
+.list4{
+    border-left:7px solid orange;
+  background-color: lightgrey;
+}
+.list5{
+    border-left:7px solid purple;
+  background-color: lightgrey;
+}
+.list6{
+    border-left:7px solid blue;
+  background-color: lightgrey;
 }
 audio{
   background-color: #fff;
@@ -43,15 +68,15 @@ footer{
   padding: 10px;
   background-color: black;
   color: white;
-  font-family:Comic Sans MS, Comic Sans, cursive;
+  font-family:'montserrat';
 }
 .footer{
   float: right;
 }
 .right{
   text-decoration: none;
-  color: red;
+  color: black;
   font-size: 20px;
-  font-family: cursive;
+  font-family: 'montserrat';
   float: right;
 }
